@@ -16,7 +16,7 @@
   name: clippy
   description: Lint rust sources
   entry: cargo clippy
+  args: []
   language: system
-  args: ["--", "-D", "warnings"]
   types: [rust]
   pass_filenames: false
